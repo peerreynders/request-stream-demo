@@ -1,0 +1,4 @@
+*.pem
+
+# dependencies
+/node_modules

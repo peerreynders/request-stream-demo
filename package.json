@@ -1,0 +1,22 @@
+{
+  "name": "request-stream-demo",
+  "version": "0.0.0",
+  "type":"module",
+  "description": "web.dev streaming request demo that works locally",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+		"type": "git",
+    "url": "git+https://github.com/peerreynders/request-stream-demo"
+  },
+  "homepage": "https://github.com/peerreynders/request-stream-demo#readme",
+  "bugs": {
+    "url": "https://github.com/peerreynders/request-stream-demo/issues"
+  }, 
+	"dependencies": {
+    "polka": "^0.5.2",
+    "serve-static": "^1.15.0"
+  }
+}
